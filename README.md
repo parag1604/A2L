@@ -1,2 +1,2 @@
-# A2L_NMT
+# A2L
 Actively reducing redundancies for neural machine translation
