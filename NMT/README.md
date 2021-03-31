@@ -5,11 +5,13 @@
 ## Environment Setup
 
 ### Anaconda environment setup command:
+
     conda create -n <A2L_NMT> tensorflow-gpu=2 matplotlib scikit-learn sacrebleu tensorflow-datasets -c conda-forge -c anaconda
 
 ### Subword models
 1. download Europarl dataset (English to spanish) and save it at 'global_data/Dataset/Europarl'
 2. go to 'dev' folder and execute:
+
         python generate_subword.py
 
 ### Word token models (subword prerequisite)
@@ -20,6 +22,7 @@ go to 'dev' folder and execute:
 ### Iso-siamese baseline
 1. download glove embeddings
 2. go to 'dev' folder and execute:
+
         python generate_glove.py <path/to/glove_300d_embeddings>
 
 
